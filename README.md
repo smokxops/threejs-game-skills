@@ -52,21 +52,19 @@ After installing, open Codex or Claude Code in an empty project folder, or in an
 
 ```text
 Use threejs-game-director to build a premium futuristic tower defense game from scratch.
-Automatically use the relevant gameplay, graphics, UI, asset generation, audio, debug,
-and QA skills. Build a playable loop first, then iterate until it passes browser,
-mobile, visual, UI, performance, and release checks.
+Automatically use the relevant gameplay, graphics, UI, asset generation, audio, debug,and Q & A skills. Build a playable loop first, then iterate until it passes browser,mobile, visual, UI, performance, and release checks.
 ```
 
 The agent should:
 
 - Load `threejs-game-director` first for broad game work.
-- Load sibling skills for gameplay systems, AAA graphics, UI, debug/profile, QA/release, 3D generation, image generation, and audio generation when the request calls for them.
+- Load sibling skills for gameplay systems, AAA graphics, UI, debug/profile, Q & A/release, 3D generation, image generation, and audio generation when the request calls for them.
 - Use the bundled scaffold internally when starting from an empty folder.
 - Create or update the game code in your project.
-- Run builds, browser checks, screenshots, canvas-pixel checks, mobile viewport checks, and QA gates before claiming completion.
-- Report the skill-loading ledger, reference ledger, asset/audio sourcing decisions, visual scorecard, and remaining risks for premium work.
+- Run builds, browser checks, screenshots, canvas-pixel checks, mobile viewport checks, and Q & A gates before claiming completion.
+- Report the skill-loading ledger, reference ledger, asset/audio sourcing decisions, visual score-card, and remaining risks for premium work.
 
-Users generally should not need to run the scaffold or QA helper scripts directly. Those scripts are packaged so the skills can use them as part of the workflow.
+Users generally should not need to run the scaffold or Q & A helper scripts directly. Those scripts are packaged so the skills can use them as part of the workflow.
 
 ## Optional API Keys
 
